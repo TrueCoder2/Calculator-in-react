@@ -27,12 +27,12 @@ const App = () => {
   return (
     <div className="container flex justify-center mt-6">
       
-      <div className='w-[500px] border-2 flex items-center justify-center flex-col rounded-2xl bg-zinc-900'>
+      <div className='md:w-[500px] w-[300px] border-2 flex items-center justify-center flex-col rounded-2xl bg-zinc-900'>
       <h1 className='text-white text-4xl text-center mt-2'>Calculator</h1>
         <div className="flex items-center justify-center mt-4">
           <input
             type="text"
-            className="w-[480px] h-16 p-4 text-right text-3xl rounded-lg text-black opacity-90  outline-none"
+            className="md:w-[480px] w-[280px] h-16 p-4 text-right text-3xl rounded-lg text-black opacity-90  outline-none"
             value={result}
           />
         </div>
@@ -40,7 +40,7 @@ const App = () => {
        <div className='flex items-center justify-center mt-2'>
        <button
           name="1"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           1
@@ -48,7 +48,7 @@ const App = () => {
 
         <button
           name="2"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110 hover:scale-110"
           onClick={handleClick}
         >
           2
@@ -56,7 +56,7 @@ const App = () => {
 
         <button
           name="3"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110 hover:scale-110"
           onClick={handleClick}
         >
           3
@@ -64,7 +64,7 @@ const App = () => {
 
         <button
           name="+"
-          className=" w-[100px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           +
@@ -76,7 +76,7 @@ const App = () => {
        <div className='flex items-center justify-center'>
        <button
           name="4"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           4
@@ -84,7 +84,7 @@ const App = () => {
 
         <button
           name="5"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           5
@@ -92,7 +92,7 @@ const App = () => {
 
         <button
           name="6"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           6
@@ -100,7 +100,7 @@ const App = () => {
 
         <button
           name="-"
-          className=" w-[100px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           -
@@ -112,7 +112,7 @@ const App = () => {
        <div className='flex items-center justify-center'>
        <button
           name="7"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           7
@@ -120,7 +120,7 @@ const App = () => {
 
         <button
           name="8"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           8
@@ -128,7 +128,7 @@ const App = () => {
 
         <button
           name="9"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           9
@@ -136,7 +136,7 @@ const App = () => {
 
         <button
           name="*"
-          className=" w-[100px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           x
@@ -148,7 +148,7 @@ const App = () => {
        <div className='flex items-center justify-center'>
        <button
           name="."
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           .
@@ -156,7 +156,7 @@ const App = () => {
 
         <button
           name="0"
-          className=" w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           0
@@ -164,14 +164,14 @@ const App = () => {
 
         <button 
          name="cal" 
-         className="w-[100px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110" 
+         className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-green-500 rounded-lg m-3 hover:scale-110" 
          onClick={calculate}>
          =
        </button> 
 
         <button
           name="/"
-          className=" w-[100px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-yellow-500 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           ÷
@@ -181,14 +181,14 @@ const App = () => {
 
        <div className='flex items-center justify-center'>
           <button
-            className="w-[230px] h-16 text-xl font-bold text-white bg-red-500 rounded-lg m-3 hover:scale-105"
+            className="md:w-[230px] w-[130px] h-16 text-xl font-bold text-white bg-red-500 rounded-lg m-3 hover:scale-105"
             onClick={clear}
           >
             Clear
           </button>
        
           <button
-            className="w-[230px] h-16 text-xl font-bold text-white bg-red-500 rounded-lg hover:scale-105"
+            className="md:w-[230px] w-[130px] h-16 text-xl font-bold text-white bg-red-500 rounded-lg hover:scale-105"
             onClick={backspace}
           >
             C
