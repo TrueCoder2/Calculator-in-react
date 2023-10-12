@@ -40,7 +40,7 @@ const App = () => {
        <div className='flex items-center justify-center mt-2'>
        <button
           name="1"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           1
@@ -48,7 +48,7 @@ const App = () => {
 
         <button
           name="2"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110 hover:scale-110"
           onClick={handleClick}
         >
           2
@@ -56,7 +56,7 @@ const App = () => {
 
         <button
           name="3"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110 hover:scale-110"
           onClick={handleClick}
         >
           3
@@ -76,7 +76,7 @@ const App = () => {
        <div className='flex items-center justify-center'>
        <button
           name="4"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           4
@@ -84,7 +84,7 @@ const App = () => {
 
         <button
           name="5"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           5
@@ -92,7 +92,7 @@ const App = () => {
 
         <button
           name="6"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           6
@@ -112,7 +112,7 @@ const App = () => {
        <div className='flex items-center justify-center'>
        <button
           name="7"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           7
@@ -120,7 +120,7 @@ const App = () => {
 
         <button
           name="8"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           8
@@ -128,7 +128,7 @@ const App = () => {
 
         <button
           name="9"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           9
@@ -148,7 +148,7 @@ const App = () => {
        <div className='flex items-center justify-center'>
        <button
           name="."
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           .
@@ -156,7 +156,7 @@ const App = () => {
 
         <button
           name="0"
-          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-500 rounded-lg m-3 hover:scale-110"
+          className=" md:w-[100px] w-[50px] h-12 text-xl font-bold bg-gray-400 rounded-lg m-3 hover:scale-110"
           onClick={handleClick}
         >
           0
